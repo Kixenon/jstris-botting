@@ -13,7 +13,7 @@ this is a guide on how to control the jstris website to make a bot, like freyhoe
 ## how to use
 
 now in the js console on the jstris website, you can use the `GAME_OBJECT` variable to do certain things:
-- `keyInput2` and `keyInput3` for keydown and keyup respectively, e.g. `GAME_OBJECT.keyInput2({key: "ArrowLeft",keyCode:37,timestamp:performance.now(),shiftKey:false,preventDefault:=>{},stopPropagation:=>{},stopImmediatePropagation:=>{},})`
+- `keyInput2` and `keyInput3` for keydown and keyup respectively, e.g. `GAME_OBJECT.keyInput2({key: "ArrowLeft",keyCode:37,timestamp:performance.now(),shiftKey:false,preventDefault:_=>{},stopPropagation:_=>{},stopImmediatePropagation:_=>{},})`
 - `matrix` for the board state
 - `blockInHold`, `activeBlock`, and `queue` for pieces seen on the board
 - explore this object yourself!
